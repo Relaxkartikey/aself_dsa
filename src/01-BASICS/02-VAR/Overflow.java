@@ -55,4 +55,9 @@ Integer.MIN_VALUE
     System.out.println("Boolean     : " + Boolean.TRUE + " / " + Boolean.FALSE);
 
 
+    byte a = 120;
+    a += 9;
+    System.out.println(a);
+
+
 }

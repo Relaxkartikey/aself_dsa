@@ -32,11 +32,14 @@ Note:
         attempt++;
         System.out.println("Wrong Pin");
 
+        if (attempt == 3) {
+            System.out.println("Access Blocked");
+            break;
+        }
+
 
     }
-    if (attempt == 3) {
-        System.out.println("Access Blocked");
-    }
+
 
 
 }

@@ -4,10 +4,10 @@ void main() {
 Type Casting
 - Convert one data type to another.
 
-Implicit (Automatic)
+Implicit (Automatic) (size small ---- large)
 byte → short → int → long → float → double
 
-Explicit (Manual)
+Explicit (Manual) (large ----- small)
 double → float → long → int → short → byte
 
 Notes:
@@ -34,8 +34,8 @@ Notes:
 
     // int divisions
 
-    System.out.println(5 / 2);
-    System.out.println(5 / 2.0);
+    System.out.println(5 / 2);   // 2
+    System.out.println(5 / 2.0);  // 2.5
 
 
     // ASCI value of char

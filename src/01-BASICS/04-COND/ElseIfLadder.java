@@ -28,6 +28,7 @@ if --- else-if x100000..... --- else
 
 */
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter Marks:");
     int Marks = sc.nextInt();
 
     if (Marks >= 80) {
@@ -37,7 +38,7 @@ if --- else-if x100000..... --- else
     else if  (Marks<80 && Marks>60) {
         System.out.println("Grade is B+");
     }
-    else if  (Marks<60 && Marks>400) {
+    else if  (Marks<60 && Marks>40) {
         System.out.println("Grade is C+ (Just Pass)");
     }
     else {

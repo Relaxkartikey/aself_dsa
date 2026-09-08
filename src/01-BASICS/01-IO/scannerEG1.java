@@ -16,6 +16,7 @@ void main() {
         System.out.println("\n--- Student Info ---");
         System.out.printf("Name : %s%n", name);
         System.out.printf("Age  : %d years%n", age);
+        System.out.printf("Age is " + age + " Years");
         System.out.printf("CGPA : %.2f%n", cgpa);
 
         sc.close();
